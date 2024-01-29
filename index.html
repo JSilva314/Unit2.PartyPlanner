@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <h1>Parties!</h1>
+    <form id="addParties" action="">
+      <label for="name">Name:<input type="text" name="name" />
+      </label>
+      <label for="datetime">Date/Time:
+        <input type="datetime-local" name="datetime" />
+      </label>
+      <label for="location">Location:
+        <input type="text" name="location" />
+      </label>
+      <label for="description">Description:
+        <input type="text" name="description" />
+      </label>
+      <div>
+        <button id="addParty" type="submit">Add Party</button>
+      </div>
+    </form>
+    <section id="parties"></section>
+  </body>
+</html>

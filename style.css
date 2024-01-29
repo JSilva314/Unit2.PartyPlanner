@@ -1,0 +1,10 @@
+#parties div {
+  border: 2px solid black;
+  margin: 15px 0;
+  padding: 5px;
+  text-align: center;
+}
+#parties p {
+  max-width: 350px;
+  margin: 10px auto;
+}
